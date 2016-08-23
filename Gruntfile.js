@@ -40,7 +40,7 @@ module.exports = function(grunt) {
 		closurecompiler: {
 			dist: {
 				files: {
-					'dist/fontface-preloader.min.js': ['build/fontface-preloader.js']
+					'dist/fontface-preloader.min.js': ['dist/fontface-preloader.js']
 				},
 				options: extend({}, buildCompilerOptions, {
 					define: 'DEBUG=false'
@@ -50,11 +50,11 @@ module.exports = function(grunt) {
 		concat: {
             build: {
                 src: ['vendor/google/base.js', 'vendor/google/no-deps.js', 'node_modules/closure-dom/src/dom.js', 'src/ruler.js', 'src/descriptors.js', 'src/observer.js', 'exports.js'],
-                dest: 'build/fontface-preloader.js'
+                dest: 'dist/fontface-preloader.js'
             },
             promise: {
-				src: ['node_modules/bluebird/js/browser/bluebird.js', 'build/fontface-preloader.js'],
-				dest: 'build/fontface-preloader.promise.js'
+				src: ['node_modules/bluebird/js/browser/bluebird.js', 'dist/fontface-preloader.js'],
+				dest: 'dist/fontface-preloader.promise.js'
 			},
             distpromise: {
 				src: ['node_modules/bluebird/js/browser/bluebird.min.js', 'dist/fontface-preloader.min.js'],
