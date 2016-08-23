@@ -2,10 +2,6 @@
 	"name": "airwave-fontface-preloader",
 	"version": "2.0.1",
 	"description": "Detect if web fonts are available",
-	"directories": {
-		"example": "example",
-		"test": "test"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/airwave-development/airwave-fontface-preloader.git"
@@ -23,12 +19,6 @@
 		"web font",
 		"font load",
 		"font events"
-	],
-	"files": [
-		"dist/fontface-preloader.min.js",
-		"dist/fontface-preloader.promise.min.js",
-		"src/*.js",
-		"externs.js"
 	],
 	"author": "Olivier de Jong <olivier@airwave.io> (https://airwave.io)",
 	"license": "MIT",
