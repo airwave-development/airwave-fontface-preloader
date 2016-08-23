@@ -1,5 +1,5 @@
 {
-	"name": "fontface-preloader",
+	"name": "airwave-fontface-preloader",
 	"version": "2.0.1",
 	"description": "Detect if web fonts are available",
 	"directories": {
@@ -14,7 +14,7 @@
 		"url": "https://github.com/airwave-development/airwave-fontface-preloader/issues"
 	},
 	"homepage": "https://airwave.io",
-	"main": "dist/fontface-preloader.min.js",
+	"main": "dist/fontface-preloader.js",
 	"keywords": [
 		"fontloader",
 		"fonts",

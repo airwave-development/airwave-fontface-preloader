@@ -1,11 +1,8 @@
 {
 	"name": "airwave-fontface-preloader",
-    "version": "2.0.1",
-    "license" : "MIT",
-	"main": [
-        "dist/fontface-preloader.js",
-        "dist/fontface-preloader.min.js"
-    ],
+	"version": "2.0.1",
+	"license": "MIT",
+	"main": "dist/fontface-preloader.js",
 
 	"license": "MIT",
 	"keywords": [
