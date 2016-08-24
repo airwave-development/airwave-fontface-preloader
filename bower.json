@@ -1,29 +1,32 @@
 {
-  "name": "airwave-fontface-preloader",
-  "license": "MIT",
-  "main": "dist/fontface-preloader.js",
-  "keywords": [
-    "fontloader",
-    "fonts",
-    "font",
-    "font-face",
-    "web",
-    "font",
-    "font",
-    "load",
-    "font",
-    "events"
-  ],
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "homepage": "https://github.com/airwave-development/airwave-fontface-preloader",
-  "authors": [
-    "Olibaron <olivier@airwave.io>"
-  ],
-  "description": ""
+	"name": "airwave-fontface-preloader",
+	"license": "MIT",
+	"main": "dist/fontface-preloader.js",
+	"keywords": [
+		"fontloader",
+		"fonts",
+		"font",
+		"font-face",
+		"web",
+		"font",
+		"font",
+		"load",
+		"font",
+		"events"
+	],
+	"dependencies": {
+		"bluebird": "3.4.x"
+	},
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"homepage": "https://github.com/airwave-development/airwave-fontface-preloader",
+	"authors": [
+		"Olibaron <olivier@airwave.io>"
+	],
+	"description": "Easily preload fontfaces"
 }

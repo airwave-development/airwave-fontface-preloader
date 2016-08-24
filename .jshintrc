@@ -1,0 +1,30 @@
+{
+    "esversion": 5,
+    "node": true,
+    "bitwise": true,
+    "camelcase": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "immed": true,
+    "indent": 2,
+    "newcap": true,
+    "nonew": true,
+    "noarg": true,
+    "quotmark": "single",
+    "regexp": true,
+    "undef": true,
+    "unused": false,
+    "trailing": true,
+    "sub": true,
+    "browser": true,
+    "globals"   : {
+        "angular": false,
+        "express": false,
+        "describe": false,
+        "it": false,
+        "before": false,
+        "after" : false,
+        "applicationRoot": false,
+        "applicationRequire": false
+    }
+}
