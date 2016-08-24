@@ -1,7 +1,6 @@
 (function() {
 	var FontFacePreloader = function FontFacePreloader(family, optionDescriptors) {
 		var descriptors = optionDescriptors || {};
-
 		/**
 		 * @type {string}
 		 */
