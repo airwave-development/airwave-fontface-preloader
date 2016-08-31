@@ -1,6 +1,6 @@
 {
 	"name": "airwave-fontface-preloader",
-    "version": "2.0.2",
+    "version": "2.0.3",
 	"license": "MIT",
 	"main": "dist/fontface-preloader.js",
 	"keywords": [
@@ -15,9 +15,6 @@
 		"font",
 		"events"
 	],
-	"dependencies": {
-		"bluebird": "3.4.x"
-	},
 	"ignore": [
 		"**/.*",
 		"node_modules",

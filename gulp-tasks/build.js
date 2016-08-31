@@ -22,9 +22,7 @@ var uglifyOptions = {
 
 gulp.task('build', [
 	'build:dev',
-	'build:dev-promise',
-	'build:dist',
-	'build:dist-promise'
+	'build:dist'
 ]);
 
 gulp.task('build:dev', function() {
@@ -33,28 +31,10 @@ gulp.task('build:dev', function() {
 		.pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('build:dev-promise', function() {
-    var src = bower.ext('js').files;
-    src.push('./src/fontface-preloader.js');
-
-	return gulp.src(src)
-		.pipe(concat('fontface-preloader.promise.js'))
-		.pipe(gulp.dest('./dist/'));
-});
 
 gulp.task('build:dist', function() {
 	return gulp.src(['./src/fontface-preloader.js'])
 		.pipe(concat('fontface-preloader.min.js'))
-        .pipe(uglify(uglifyOptions))
-		.pipe(gulp.dest('./dist/'));
-});
-
-gulp.task('build:dist-promise', function() {
-    var src = bower.ext('js').files;
-    src.push('./src/fontface-preloader.js');
-
-	return gulp.src(src)
-		.pipe(concat('fontface-preloader.promise.min.js'))
         .pipe(uglify(uglifyOptions))
 		.pipe(gulp.dest('./dist/'));
 });

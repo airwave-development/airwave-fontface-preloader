@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&subset=latin,latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+        <script src="../dist/fontface-preloader.min.js"></script>
+
+        <script>
+        (function() {
+            var preloader = new FontPreloader();
+
+            preloader.preload('Roboto', '400');
+            preloader.preload('Material Icons', '400');
+
+            preloader.on('preloadReady', function(e) {
+                console.log('ready');
+            });
+
+            preloader.runPreloader();
+        })();
+        </script>
+    </body>
+</html>
